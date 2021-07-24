@@ -1,0 +1,84 @@
+body{
+    background: #000;
+    color:#fff;
+    padding: 0;
+    margin: 0;
+   
+
+}
+header{
+    display: flex;
+    border-width: 2px;
+    border-color: yellow;
+    border-style: solid;
+    justify-content: space-between;
+    background: green;
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 13px;
+}
+.logo{
+    margin-left: 70px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 25px;
+}
+.banner{
+    background: grey;
+    text-align: center;
+    height: 120px;
+    color: #000;
+    margin-top: -16px;
+    padding-top: 20px;
+
+}
+.banner p{
+    font-size: 25px;
+}
+.banner p span{
+    color:brown;
+}
+.section{
+    display:flex
+}
+.profilepic{
+    margin: 20px;
+
+}
+.info{
+    padding-top:30px ;
+    font-size: 16px;
+    color:blanchedalmond
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color:blueviolet;
+}
+a{
+    text-decoration: none;
+    color:darkslateblue
+}
+section{
+    display:flex;
+}
+img{
+    margin:15px
+}
+footer {
+    background: chartreuse;
+    color:cornsilk;
+    height: 45px;
+    text-align: center;
+}
+footer p{
+    padding-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}

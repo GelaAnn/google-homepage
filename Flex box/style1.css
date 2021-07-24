@@ -1,0 +1,25 @@
+.child{
+    height: 200px;
+    width: 200px;
+    border:1px solid blue;
+    background:coral;
+
+}
+.child1{
+    height:100px;
+    width:150px;
+    background: darkgoldenrod;
+}
+.child2{
+    height:120px;
+    width:170px ;
+    background: darkred;
+}
+.parent{
+    background: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around
+}
+
