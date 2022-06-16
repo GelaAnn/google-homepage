@@ -1,0 +1,30 @@
+*body{
+            background:cornflowerblue;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            font-size:60px;
+            color:pink;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 100;
+            text-align:center;
+            text-decoration: underline;
+            }
+        nav{
+            background:blueviolet;
+            color:black;
+            font-family: sans-serif;
+        }
+        .welcome{
+            background: turquoise;
+            color:purple;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 20px;
+            letter-spacing: 2px;
+        }
+        .Name{
+            background: powderblue;
+            color:red;
+        
+        }
