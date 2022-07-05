@@ -60,12 +60,13 @@ ul li:nth-child(6){
    }
    .okay{
        height:7vh;
-       width: 300px;
+       width: 330px;
        border-radius: 30px;
        color:lightgray;
        font-size: 18px;
        outline: none;
-       border:none;
+        border: 2px solid antiquewhite ;
+
     
    }
    .input{
@@ -74,20 +75,19 @@ ul li:nth-child(6){
        width:30px;
        height:30px;
        border-radius:50%;
-       background: #FF8F6F;
        display: flex;
-       align-items: center;
+       background: #FF8F6F;
+       
+       
    }
    .name{
-       top:50%;
+       top:40%;
        left:50%;
-       height: 40px;
+       height: 48px;
        border-radius: 55px;
-       border: 2px solid antiquewhite ;
-    
 
-       
-       
+
+    
    }
    .hero.image{
        padding-left: 300px;
@@ -144,11 +144,12 @@ ul li:nth-child(6){
         background: #000;
         width: 150px;
 
+    
+
     }
     .final,a{
         text-decoration: none;
         color: #Fff;
-        align-items: center;
     }
 
 

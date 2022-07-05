@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>Student</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background:azure;
+        font-family: sans-serif;
+    }
+
+
+    .navbar{
+        background: blueviolet important;
+        font-size: 20px;  
+    }
+    .logo{
+        font-family: 'Splash', cursive;
+    }
+    
+    .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+    .SignUp{
+        border-radius: 20px;
+        outline: none;
+        width: 130px;
+        background:teal;
+        color: bisque;
+
+    }
+
+
+    .login{
+        width: 550px;
+        height: 400px;
+        margin-top: 80px;
+        left:50%;
+        top: 50%;
+        padding: 70px 30px;
+        background: black;
+        position: absolute;
+        color: greenyellow;
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+     
+    }
+
+    .login input{
+    width: 300px;
+    padding-left: 50px;
+    margin-bottom: 60px;
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    background: transparent;
+    outline: none;
+    color: aqua;
+    font-size: 18px;
+
+    }
+
+    .login label{
+        font-size: 20px;
+    }
+
+    h4{
+        margin: 0;
+        padding: 0 0 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .login .SignUp{
+        width: 300px;
+        margin-left: 70px;
+        height: 50px;
+        font-size: 28px;
+
+    }
+</style>
+<body>
+    <div class="boundary">
+        <nav class="navbar navbar-expand md navbar-dark bg-dark">
+            <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand"href="#">Logo</a>
+                    <button class="navbar-toggler"data-toggle="collapse" data-target="#bob" type="button">
+                        <span></span>
+                    </button>
+                <div class="collapse navbar-collapse"id="#bob"> 
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="/C:\Users\GELA_ANN\Desktop\Portfolio\School Project\home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/About">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="C:\Users\GELA_ANN\Desktop\Portfolio\School Project\hostel.html">Hostels</a></li>
+                        <li class="nav-item"><a class="nav-link" href="C:\Users\GELA_ANN\Desktop\Portfolio\School Project\StuId.html">Reservations</a></li>
+                        <div class="dropdown">
+                            <li class="nav-item"><a class="nav-link" href="/Contact-us">Contact Us</a></li>
+                            <div class="dropdown-content">
+                               <p>0243543688</p>
+                               <p>0500310008</p>
+                             </div>
+                          </div>
+                        <li class="nav-item"><button class="SignUp" type="submit"><a class="nav-link" href="">Log in</a></button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <nav class="navbar navbar-expand md navbar-dark bg-primary">
+        <div class="container d-flex justify-content-between">
+                <a class="navbar-brand"href="#">Logo</a>
+                <button class="navbar-toggler"data-toggle="collapse" data-target="#bob" type="button">
+                    <span></span>
+                </button>
+    </nav>
+    <div class="login">
+        <form action="">
+            <h4>Login Here</h4>
+            <label for="username">Student ID</label>
+            <input type="text" class="name" name="" id="username" placeholder="Enter Student ID or Username" required>
+            <label for="password">Password</label>
+            <input type="password" class="name" name="" id="password" placeholder="Password" required>
+            <button class="SignUp" type="submit"><a href="">Log in</a></button>
+            
+        </form>
+    </div>
+    
+
+   
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>  
+</body>
+</html>
