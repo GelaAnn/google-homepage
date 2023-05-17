@@ -1,0 +1,188 @@
+/* This css file contains the styles which all pages can use  */
+/* Basically the styles here includes header and the footer */
+body {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.workspace {
+    width: 70%;
+    margin-left: 15%;
+    color: #111111;
+    display: block;
+    text-align: center;
+}
+
+#emphasize1 {
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+#emphasize2 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+#emphasize3 {
+    font-size: 2.5vw;
+    font: 700;
+}
+
+#normal {
+    color: #898989;
+    font-size: 20px;
+}
+
+header {
+    width: 70%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 15%;
+}
+
+#logo img {
+    width: 60px;
+    /* margin-left: 10%;
+    margin-right: 20%; */
+}
+
+#logo {
+    /* width: 100px; */
+    /* margin-right: 40%; */
+    /* margin-left: 15%; */
+    position: block;
+}
+
+header a {
+    text-decoration: none;
+    color: #111;
+    /* margin-right: 3%; */
+
+}
+
+header .button_decoration {
+    /* margin-left: 30px; */
+}
+
+.button_decoration {
+    text-align: center;
+    color: #111;
+    background-color: #fc0;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.input_decoration {
+    /* border-color: transparent; */
+    height: 35px;
+}
+
+footer {
+    width: 70%;
+    margin-top: 150px;
+    margin-left: 15%;
+}
+
+footer a img {
+    width: 60px;
+    /* margin-left: 10%;
+    margin-right: 20%; */
+}
+
+#make_it_resizable {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3em;
+
+
+}
+
+#arrangewell1 {
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    margin-left: 10%;
+}
+
+#arrangewell1 a {
+    margin-top: 10px
+}
+
+#arrangewell2 {
+    /* position: absolute; */
+    /* margin-left: 60%; */
+}
+
+.socialmedia {
+    margin-left: 10px;
+}
+
+.socialmedia img {
+    width: 30px;
+}
+
+#left {
+    margin-top: 30px;
+}
+
+#left a {
+    text-decoration: none;
+    color: #111;
+    margin-right: 4%;
+
+}
+
+hr {
+    border: 1px solid #EEEEEE;
+}
+
+.imageresize {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#flex_it {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#leftside {
+    width: 40vw;
+    text-align: left;
+    padding: 10px;
+}
+
+#rightside img {
+    width: 30vw;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#rightside {
+    width: 40vw;
+    text-align: left;
+    padding: 10px;
+}
+
+#leftside img {
+    width: 30vw;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+/* @media screen and (min-width: 1200px)
+@media screen and (max-width: 768px) */

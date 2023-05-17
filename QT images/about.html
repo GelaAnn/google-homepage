@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/screensizes.css">
+    <title>Home</title>
+    <link rel="icon" href="images/quantumlogo.png" type = "image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo"><img src="images/quantumlogo.png" alt="Our logo"></a>
+        <div id="arrangewell1">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contacts.html">Contacts</a>
+        <button type="submit" onclick="signup_page()" class="button_decoration">Sign up</button>
+        <a href="signup.html" id="signup"></a>
+    </div>
+    </header>
+
+    <div class="workspace">
+
+        <div id="flex_it">
+            <div id="leftside">
+                <p id="emphasize1">About Us</p>
+                <p id="normal">We're a team of UI/UX Product & Motion designers, Strategists, Developers and <br>
+                     business analysts, working closely to <br>
+                      capture untapped business opportunities.
+                </p>
+                
+            </div>
+            <div id="rightside">
+                <img src="images/meeting_image.jpg" alt="image of discussion">
+            </div>
+        </div>
+
+        <p id="emphasize2">Our Services</p>
+        <div class="services">
+            <div id="service_box">
+                <p id="emphasize3">Brand Identity</p>
+                <p id="normal">We're a team of UI/UX Product & Motion designers, Strategists, Developers and business analysts.</p>
+            </div>
+            <div id="service_box">
+                <p id="emphasize3">Brand Identity</p>
+                <p id="normal">We're a team of UI/UX Product & Motion designers, Strategists, Developers and business analysts.</p>
+            </div>
+            <div id="service_box">
+                <p id="emphasize3">Brand Identity</p>
+                <p id="normal">We're a team of UI/UX Product & Motion designers, Strategists, Developers and business analysts.</p>
+            </div>
+            <div id="service_box">
+                <p id="emphasize3">Brand Identity</p>
+                <p id="normal">We're a team of UI/UX Product & Motion designers, Strategists, Developers and business analysts.</p>
+            </div>
+            <div id="service_box">
+                <p id="emphasize3">Brand Identity</p>
+                <p id="normal">We're a team of UI/UX Product & Motion designers, Strategists, Developers and business analysts.</p>
+            </div>
+            <div id="service_box">
+                <p id="emphasize3">Brand Identity</p>
+                <p id="normal">We're a team of UI/UX Product & Motion designers, Strategists, Developers and business analysts.</p>
+            </div>
+        </div>
+
+        <div id="flex_it">
+            <div id="leftside">
+                <p id="emphasize2">Let's discuss your project</p>
+                <p>Drop your email, we'll contact you within 24hrs</p>
+                <form id="startproject" onsubmit="return false"><input type="email" placeholder="Email" id="email"
+                        class="input_decoration"><button type="submit" class="button_decoration"
+                        onclick="check_valid_mail()">Start Poject</button>
+
+                </form>
+                <p id="display_check_result" style="display: none"></p>
+            </div>
+            <div id="rightside">
+                <img src="images/discussproject.jpg" alt="image of discussion">
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <hr>
+        <div id="make_it_resizable">
+            <a href="index.html" id="logo"><img src="images/quantumlogo.png" alt="Our logo"></a>
+            <!-- Our social media links goes here -->
+            <div>
+                <a href="http://#" target="_blank" rel="noopener noreferrer" class="socialmedia"><img
+                        src="images/facebook.png" alt="facebook"></a>
+                <a href="http://#" target="_blank" rel="noopener noreferrer" class="socialmedia"><img
+                        src="images/instagram.png" alt="instagram"></a>
+                <a href="http://#" target="_blank" rel="noopener noreferrer" class="socialmedia"><img
+                        src="images/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+        <div id="left">
+            <p id="normal">Digital transformation at start-up speed.</p>
+        </div>
+        <hr>
+        <div id="left">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contacts.html">Contacts</a>
+        </div>
+        <hr>
+        <div id="left">
+            <p id="normal">© 2022 Powered by Quantum Tech</p>
+        </div>
+    </footer>
+    <script src="scripts/default.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

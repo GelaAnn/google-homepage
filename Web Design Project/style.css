@@ -1,0 +1,776 @@
+body{
+    margin:0;
+    padding:0;
+    background: #F5F4F4;
+    font-family:  'Quattrocento', serif;
+    font-size: 15px;
+}
+/*Navbar*/
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background: #583d59;
+    height: 60px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    font-family: 'Quattrocento', serif;
+    margin-right: 28px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#F5F5F5;
+}
+nav ul li a:hover{
+    color:goldenrod;
+
+}
+.logo{
+    color: peru;
+    padding-left: 10px;
+    font-family: 'Aguafina Script', cursive;
+
+}
+#fullstop{
+    color: #F5F5F5;
+}
+.cta{
+    padding: 10px 0 100px 0;
+    display: flex;
+    background-image: url("blur.jpg" );
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 500px;
+    
+}
+/*Homepage*/
+.cta-text{
+    font-size:50px;
+    text-align: center;
+    margin-left: 600px;
+}
+.cta h1{
+    color: #38033a;
+    font-size: 40px;
+    font-family: 'Ewert';
+}
+.cta span{
+    color: #F5F4F4;
+}
+.cta h3{
+    color: peru;
+    font-size: 80px;
+    font-family: 'The Nautigal';
+   
+}
+.cta button{
+    background:peru;
+    text-decoration: none;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border:1px solid#38033a;
+    font-family: 'Quattrocento', serif;
+    
+}
+.cta button:hover{
+    background: #38033a;
+}
+.cta button a{
+    color:#38033a;
+    text-decoration: none;
+}
+.cta button a:hover{
+    color:peru;
+
+}
+.about-our-class{
+    padding-top: 1px;
+    color:#F5F5F5;
+    background: #38033a;
+    padding-bottom: 10px;
+    padding-left:90px;
+
+}
+.class-header{
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.class-info{
+    display:flex;
+}
+.about-our-class p{
+    height: 350px;
+    margin-left: 10%;
+    padding: 30px 30px 30px 30px;
+    font-size: 20px;
+    color: peru;
+
+}
+.about-our-class img{
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 50%;
+
+}
+.about-our-class button{
+    margin-left: 700px;
+    background: peru;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 200px;
+}
+.about-our-class button:hover{
+background: #F5F5F5;
+}
+.about-our-class button a{
+    text-decoration: none;
+    color: #F5F4F4;
+}
+.about-our-class button a:hover{
+    color: #38033a;
+}
+.home-courses{
+    display: flex;
+    font-size: 17px;
+    padding-left: 20px;
+    color: #87068b;
+    padding: 30px 0 70px 10px;
+    height: 500px;
+}
+.home-courses h1{
+    font-size: 50px;
+}
+.home-courses p{
+    color: peru;
+}
+.home-courses-text{
+    padding-left: 150px;
+    font-size: 20px;
+}
+.home-courses button{
+    background: peru;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 1px solid #87068b;
+    width: 200px;
+    height: 50px;
+}
+.home-courses button:hover{
+    background:#38033a;
+}
+.home-courses button a{
+    text-decoration: none;
+}
+.home-courses button a:hover{
+    color: #F5F4F4;
+}
+.home-courses img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+}
+/*Our Courses Page*/
+.courses{
+    background-image: url("webdesign2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #F5F5F5;
+    padding: 10px 0 100px 0;
+
+}
+.courses h1{
+    padding-top: 10px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 43px;
+
+}
+.prog h3{
+    text-align: center;
+    color: goldenrod;
+    font-size: 22px;
+    padding-left: 600px;
+}
+.prog-content{
+    display:flex;
+    padding-left: 180px;
+    text-align: justify;
+    font-size:18px;
+}
+.prog img{
+    width: 450px;
+    height: 450px;
+    border-radius: 500px;
+
+}
+.prog-content p{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+    
+.services{
+    background: peru;
+    color: #F5F4F4;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.services-header{
+    font-family: 'El Messiri', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.services .items{
+    display: flex;
+
+}
+.serve-box{
+    height: 300px;
+    width: 400px;
+    color: #F5F4F4;
+    background: #38033a;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: background 0.5s, transform 0.5s;
+}
+.serve-box:hover{
+    background: #583d59;
+    transform: translateY(-10px);
+}
+.serve-box h1{
+    text-align: center;
+}
+.serve-icon{
+    text-align: center;
+    font-size: 50px;
+}
+.serve-box p{
+    text-align: justify;
+}
+.serve-box a{
+    color: #F5F4F4;
+    font-size: 50px;
+
+}
+.serve-box a:hover{
+    color: goldenrod;
+}
+.services button{
+    margin-top: 50px;
+    background:#F5F4F4;;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    border: 1px solid peru;
+    
+}
+.services button a{
+    text-decoration: none;
+    color: #38033a;
+}
+.services button:hover{
+    background: #38033a;
+}
+
+.services button a:hover{
+    color:peru;
+}
+    
+.we-serve h1{
+    color:#F5F4F4;
+    text-align: center;
+}
+.contact-image{
+    padding-top: 20px;
+    padding-left: 200px;
+}
+.bookUs img{
+    width: 650px;
+    height: 550px;  
+
+}
+/*Contact Page*/
+.contact-header{
+    font-size: 25px;
+    color: #38033a;
+
+}
+.contact-text{
+    font-size: 18px;
+}
+.contact-text h3{
+    color: goldenrod;
+}
+.dealers a{
+    color: goldenrod;
+
+}
+.bookUs{
+    height: 600px;
+    display: flex;
+    padding-left: 100px;
+    
+}
+.Our-Contact{
+    height: 600px;
+    display: flex;
+    padding-left: 100px;
+    
+}
+.book-head{
+    padding-top: 20px;
+    color: goldenrod;
+    font-size: 30px;
+}
+
+.inside{
+    text-align: center;
+    overflow: auto;
+    box-shadow:rgba(0, 147, 144, 0.8) ;
+    border: 1px solid silver;
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 500px;
+}
+
+form input{
+    width: 500px;
+    height:35px ;
+    
+}
+textarea{
+    width: 500px;
+    height: 100px;
+}
+form select{
+    width: 400px;
+    height: 35px;
+}
+.contact{
+    background: #F5F4F4;
+    height: 300px;
+    
+}
+form{ 
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+    color: #282828;
+    border-radius: 6px;
+}
+.form-row{
+    margin-bottom: 15px;
+}
+.form-check-input{
+    height: 10px;
+}
+form button{
+    width: 500px;
+     background: #38033a;
+     color: #F5F5F5;
+     height: 25px;
+     font-size: 20px;
+     border:1px solid #38033a;
+}
+
+/*Our Services Page*/
+.Services-content{
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+}
+.services-header{
+    color: #87068b;
+}
+.describe-services{
+    padding-left: 40px;
+    color: goldenrod;
+}
+.services-images{
+    transition: 7s;
+    max-width: 1500px;
+    position: relative;
+}
+.services-images i{
+    top:50%;
+    width:46px;
+    height: 46px;
+    position: absolute;
+    background: #e8dfe8;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50px;
+    font-size: 1.4rem;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+.wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+.services-images i:first-child{
+    left:-22px;
+    display: none;
+}
+
+.services-images i:last-child{
+    right: -22px;
+}
+.services-images .carousel{
+    white-space: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging img{
+    pointer-events: none;
+  }
+.carousel img{
+    object-fit: cover;
+    user-select: none;
+    margin-left: 15px;
+    width: calc(100%/4);
+    height: 340px;
+   
+}
+.carousel img:hover{
+    transform: translateX(-10px);
+}
+
+/*About Us Page*/
+.about-boundary{
+    padding-bottom: 100px;
+
+}
+
+.about-intro{
+    padding-top:10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 15px;
+}
+.intro-head{
+    color: goldenrod;
+    text-align: center;
+}
+.about-boundary img{
+    height: 300px;
+    width: 400px;
+}
+.intro-text{
+    display: flex;
+}
+.intro-text p{
+    text-align: center;
+    width: 700px;
+}
+
+.about-intro p{
+    color:#38033a;
+    text-align: justify;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.about-intro h2{
+padding-left: 50px;
+color: #87068b;
+}
+.about-con{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+.container h2{
+    color: goldenrod;
+}
+.vision-side{
+    width: 500px;
+    padding-right: 100px;
+    margin-left: 40px;
+}
+.skill{
+    display: block;
+    padding-right: 200px;
+}
+.skill-box{
+    display:flex;
+    margin-top: 20px;
+}
+.skill-box i{
+    margin-top: 30px;
+
+}
+.skill-text{
+    margin-left: 20px;
+    width: 500px;
+}
+.manage-icon{
+    text-align: center;
+    color: #F5F5F5;
+    background:orangered;
+    width: 90px;
+    min-height: 50px;
+}
+.hard-icon{
+    text-align: center;
+    color: #F5F5F5;
+    background:rgb(14, 148, 14);
+    width: 90px;
+    min-height: 50px;
+}
+.think-icon{
+    text-align: center;
+    color: #F5F5F5;
+    background: teal;
+    width: 90px;
+    min-height: 50px;
+}
+/*footer section*/
+footer{
+    background: #38033a;
+    height: 300px;
+    color: #F5F5F5;
+
+}
+
+.footer{
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+   
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    color:#F5F4F4;
+    justify-content: space-between;
+    text-decoration: none;
+}
+footer a :hover{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media screen and (max-width:900px){
+    body{
+        font-size: 10px;
+    }
+    .cta-text{
+        margin: auto;
+    }
+    .class-info{
+        display: grid;
+        margin-right: 100px;
+        padding-right: 35px;
+    }
+    .about-our-class {
+     padding-left: 0;
+     height: 1000px;
+     font-size: 10px;
+    }
+    .about-our-class img {
+        width: 350px;
+        height: 350px;
+        
+    }
+    .about-our-class p {
+        padding: 2px 0 2px 2px;
+    }
+    .about-our-class button {
+        margin-left: 60px;
+        background: peru;
+        font-size: 10px;
+        border-radius: 50px;
+        border: none;
+        height: 50px;
+        width: 200px;
+        margin-top: 70px;
+    }
+    .home-courses{
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 600px;
+        padding-left: 0px;
+        margin-left: 2px;
+        display: inline;
+    }
+    .home-courses-text {
+        padding-left: 30px;
+        font-size: 13px;
+        padding-right: 30px;
+        padding-bottom: 35px;
+       
+    }
+    .home-courses h1{
+        font-size: 25px;
+    }
+    .home-courses img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-left:10px;
+        text-align: center;
+    }
+    .services{
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .services .items{
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .serve-box{
+        width: 300px;
+        height: 300px;
+        font-size: 15px;
+        
+    }
+    .services button{
+        padding-top: 5px;
+    }
+    .bookUs{
+        padding-left: 5px;
+        display: grid;
+        height: 750px;
+    }
+    .Our-Contact{
+        padding-left: 5px;
+        display: grid;
+        height: 880px;
+    }
+    .contact-text{
+        font-size:15px;
+    }
+    .contact-header{
+        font-size: 15px;
+       
+    }
+    textarea{
+        width: 240px;
+        height: 50px;
+    }
+    form button{
+        width: 200px;
+    }
+    .book-head{
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    form label{
+        font-size: 15px;
+    }
+    .contact-image{
+        padding-top: 5px;
+        padding-left: 70px;
+    }
+    .bookUs img{
+        padding-top: 0;
+        width: 200px;
+        height: 200px;  
+    
+    }
+    .inside{
+        font-size: 10px;
+        padding-top: 5px;
+        margin-left: 5px;
+        height: 350px;
+        width: 350px;
+    }
+    form input{
+        width: 240px;
+        height:25px ;
+    }
+    .form{ 
+        font-size: 15px;
+        width: 80%;
+    } 
+    
+    .carousel img{
+        width: calc(100%/2);
+    }
+    .about-intro{
+        padding-left: 10px;
+       
+    }
+    .intro-text{
+        display: grid;
+    }
+    .intro-text img{
+        width: 350px;
+    }
+    .intro-text p{
+        width: 350px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    
+    
+    .footer{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 40px;
+        font-size: 10px;   
+    }
+    .copyright{
+        padding-top: 90px;
+        font-size: 7px;
+
+    }
+    .container{
+        display: block;
+        margin-top: 50px;
+    }
+    .skills{
+        margin-left: 20px;
+        width: 330px;
+    }
+    .vision-side{
+       margin-left: 20px;
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .carousel img{
+        width: 100%;
+    }
+    
+}

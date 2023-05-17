@@ -1,0 +1,29 @@
+body{ width: 600px;
+    border: 1px solid red;
+    margin: 0 20% 0 20% ;
+}
+.header{
+    background-color: #770000;
+    height: 100px;
+}
+.aside-left{
+    
+    background: #dcd9c0;
+    height: 300px;
+    width:80px;
+    float: left;
+}
+.aside-right{
+    background:#009906;
+    height:300px;
+    width:120px;
+    float:right;
+}
+.main{background: #ffed53;
+    height:300px;
+    width:400px;
+}
+footer{
+    background:#221122;
+    height:30px;
+}

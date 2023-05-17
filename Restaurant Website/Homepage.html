@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Splash&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Splash&family=Tiro+Tamil&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Splash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Welcome</title>
+</head>
+<style>
+    body{ 
+    margin:0;
+    padding:0;
+    background: black;
+    font-family: 'Tiro Tamil', serif;
+    font-size: 20px;
+}
+.boundary{
+    width: 100%;
+    margin:auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li a{
+    margin-right: 28px;
+    color:yellow;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: azure;
+    
+
+}
+.logo{
+    display: flex;
+    color:green;
+    font-size: 20px;
+    font-family: 'The Nautigal', cursive;
+}
+
+ul li:nth-child(6){
+ padding:10px 15px ;
+    background:green;
+    color:#Fff;
+    border-radius: 30px;
+
+}
+#order{
+    color:#Fff;
+}
+#nav-item{
+    padding-top: 12px;
+
+
+}
+.hero-text{
+    font-size: 30px;
+    font-family: 'El Messiri', sans-serif;
+}
+.hero{
+    display:flex;
+    justify-content: space-around;
+    align-items: left;
+    margin-top: 100px;
+}
+.hero-text h2{
+       color:whitesmoke;
+       font-weight:bold;
+    }
+        
+.okay{
+       height:7vh;
+       width: 330px;
+       border-radius: 30px;
+       color:whitesmoke;
+       font-size: 18px;
+       outline: none;
+        border: 2px solid antiquewhite ; 
+    }
+
+.name{
+    text-decoration: none;
+
+   }
+
+   .hero-img{
+       padding-left: 300px;
+       border-radius: 50px;
+      
+   }
+   .btn{
+    padding: 10px 30px; 
+    background: green;
+    border-radius: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    border: none;
+   }
+
+   .btn-default:hover{
+    color:yellow;
+    border: none;
+   }
+
+   #door{
+    color:yellow;
+    font-size: 70px;
+    font-family: 'The Nautigal', cursive;
+   }
+   .cta{
+       text-align:center;
+       padding-top: 120px;
+       color:green;
+  
+    }
+    .cta a{
+        text-decoration: none;
+        color: #Fff;
+        font-family: 'Great Vibes', cursive;
+    
+    }
+    main{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+    main,h2{
+        text-align: center;
+    }
+    main, p{
+        color: bisque;
+        font-size: 20px;
+    }
+    .domain{
+        flex:2;
+        margin: 15;
+        padding:20px;
+        color: green;
+        border:palevioletred;
+        background: darkgray;
+
+    }
+    aside{
+        flex:2;
+        margin: 15;
+        padding:15px;
+        color: yellow;
+    }
+    .body{
+        padding-left: 50px;
+    }
+    .body-image{ 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding-top: 50px ;
+}
+.body img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.body img:hover{
+transform: scale(1.04);
+
+}
+
+    .image-tag{
+    font-size: 20px;
+    display:grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.image-tag p{
+    color: yellow;
+    background: green;
+    width: 300px;
+    border: 1px solid green;
+    transition: 0.2s ease;
+}
+
+.image-tag p:hover{
+    background:green;
+    width: 300px;
+    transform: scale(1.04);
+    
+}
+.image-tag p span{
+    background:white;
+    color: black;
+    width: 2px;
+    padding-left:20px;
+}
+    .body-text{
+        padding-top:70px;
+        padding-left: 30px;
+        color:white;
+        font-family: 'Great Vibes', cursive;
+    }
+
+    .about{
+        padding: 80px 50px 0 50px;
+
+    }
+    .about-text{
+        display: flex;
+        padding-top: 50px;
+    
+    }
+    .about img{
+       width: 500px;
+    }
+
+    .about h2{
+        color:yellow;
+    }
+
+    .about h3{
+        font-size:30px;
+        text-transform: capitalize;
+        margin:  0 15px;
+        color: green;
+        text-align: center;
+
+    }
+    .about h3 span{
+        color:yellow;
+        font-size: 70px;
+        font-family: 'The Nautigal', cursive;
+
+    }
+    .about p{
+        padding-left:50px;
+        padding-right: 70px;
+    }
+    #food{
+        color: yellow;
+
+    
+
+    }
+    .app{
+        margin-top: 100px;
+        text-decoration: none;
+        color: #Fff;
+        display: flex;
+        padding-left: 400px;
+        justify-content: space-between;
+    }
+    footer{
+    background:darkgreen;
+    color:whitesmoke;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    color: #Fff;
+    justify-content: space-between;
+    text-decoration: none;
+}
+footer a :hover{
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+@media(max-width:991px){
+
+}
+@media(max-width:767px){
+    .about-text,
+    .about-image{
+        width: 100%;
+    }
+    .about-image{
+        margin-top: 40px;
+    }
+}
+</style>
+<body>
+    <div class="boundary">
+        <nav class="boundary navbar fixed-top">
+            <div class="logo">
+                <img src="logo.jpg" alt="" height="55px">
+                 <h2>Sweetbad</h2>
+            </div>
+                <ul>
+                   <li id="nav-item"><a href="C:\Users\GELA_ANN\Desktop\Portfolio\Restaurant Website\Homepage.html">Home</a></li> 
+                   <li id="nav-item"><a href="#about">About us</a></li>
+                   <li id="nav-item"><a href="C:\Users\GELA_ANN\Desktop\Portfolio\Restaurant Website\Menu.html">Menu</a></li>
+                   <li id="nav-item"><a href="#cta">Services</a></li>
+                   <li id="nav-item"><a href="#footer">Contact</a></li>
+                   <li id="order"><a href="C:\Users\GELA_ANN\Desktop\Portfolio\Restaurant Website\Order.html">Make an Order</a></li>
+                </ul>
+         </nav>
+         <div class="hero">
+            <div class="hero-text">
+                   <h2>Are you hungry?<br>Try<br><span id="door">Sweetbad  Restaurant</span></h2>
+                <div class="name">
+                    <a href="C:\Users\GELA_ANN\Desktop\Portfolio\Restaurant Website\Menu.html" class="btn btn-default"> View Menu</a>
+                </div>
+            </div>
+                <div class="hero-img">
+                    <img src="wall.jpeg" alt="" width="500px">
+                </div>
+        </div> 
+        
+         <section class="cta" id="cta">
+             <a href="#"><h5>Offering</h5></a>
+             <h2>Our amazing services</h2>
+                  <br>
+         </section>
+        </div>
+        <main>
+            <aside>
+                <h2>Good Food</h2>
+                <p>Our foods are very delicious, affordable and hygeinically prepared 
+                    We serve hot and juicy meals
+                    You will love it</p>
+            
+            </aside>  
+            <section class="domain">
+                <i class="fa fa-shopping-basket" style="font-size:50px;color:green"></i>
+                <h2>Event Orders</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit, porro voluptas repellat inventore repudiandae.
+                 Nihil rem veniam exercitationem excepturi omnis. Minus atque qui quisquam nulla a, pariatur mollitia doloremque?</p>
+            </section>
+            <aside>
+                <i class="fa fa-shopping-cart" style="font-size:50px;color: wheat;"></i>
+                <h2>Fastest Delivery</h2>
+                <p>We deliver as fast as possible anytime and anywhere. We are at your service anytime you hit on us,
+               your location is never a barrier to us. We are your trusted and reliabe source</p>
+    
+            </aside>
+        </main>
+        <div class="body">
+            <div class="body-text">
+                <h2><span id="food">Menu of the week</span><br>we serve</h2>      
+            </div>
+            <div class="body-image">
+                 <img  src="smoothie.jpeg" alt="">
+                <img src="jollof.jpeg" alt="">
+                <img src="cake.jpeg" alt="">
+                <img src="fried rice.jpeg" alt="">
+            </div>
+            <div class="image-tag">
+                <p>Sweetbad Smoothie<br></br><span>¢15.00</span></p>
+                <p >Sweetbad Vegetable Jollof<br> rice with chicken</br><span>¢30.00<span></p>
+                <p>Sweetbad Tasty Cake<br></br><span>¢20.00</span></p>
+                <p>Sweetbad Fried rice<br>with chicken and salad</br><span>¢30.00</span></p>
+            </div> 
+        </div>
+        <div class="about" id="about">
+            <h2>About us</h2>
+            <h3>Welcome to <span>Sweetbad restaurant</span></h3>
+            
+                <div class="about-image">
+                    <img src="wallpaper.jpeg" alt="">
+                </div>
+                <div class="about-text">
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Explicabo quisquam quas libero voluptate 
+                    inventore sint asperiores  Explicabo quisquam quas libero voluptate 
+                    magni vitae porro dolorem sapiente deleniti facere, eaque, 
+                    quis obcaecati nulla! Nemo, excepturi eveniet.Lorem ipsum dolor sit, amet consectetur 
+                        adipisicing elit. Explicabo quisquam quas libero voluptate 
+                        inventore sint asperiores  Explicabo quisquam quas libero voluptate 
+                        magni vitae porro dolorem sapiente deleniti facere, eaque, 
+                        quis obcaecati nulla! Nemo, excepturi eveniet.</p>
+                      
+            </div>
+            <br>
+            <a href="C:\Users\GELA_ANN\Desktop\Portfolio\Restaurant Website\Menu.html" class="btn btn-default"> View Menu</a>
+       
+            </div>
+        
+        <div class="app">
+            <h3>Download our app now</h3>
+            <img src="app2.png" alt="">
+            <img src="app1.png" alt="">
+        </div>
+    
+        <footer id="footer">   
+            <div class="social">
+            <p>Stay in touch</p>
+                <a href="#"><i style='font-size:24px' class='fab'>&#xf09a;</i></a>
+                <a href="#"><i style='font-size:24px' class='fab'>&#xf39f;</i></a>
+                <a href="#"><i style='font-size:24px' class='fab'>&#xf16d;</i></a>
+                <a href="#"><i style='font-size:24px' class='fab'>&#xf099;</i></a>
+                <br>
+                <a href="#"><i style='font-size:24px' class='fas'>&#xf095;</i>  0243543688</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <p>Menu</p>
+                    <li>Rice</li>
+                    <li>Noodles</li>
+                    <li>Smoothies</li>
+                </ul>
+            </div>
+            <div class="time">
+                <ul>
+                <p>Working hours</p>
+                <li>Monday to Saturday<br>8:00AM - 11:00PM</li>
+                <li>Holidays<br>9:00AM - 8:00PM</li>
+                </ul>
+            </div>
+            <div class="address">
+                <ul>
+                    <p>Address</p>
+                    <li>Tesano</li>
+                    <li>Abeka-junction</li>
+                    <li>sweetbad@gmail.com</li>
+                </ul>
+            </div>
+
+        </footer>
+<div class="copyright">
+    ----&copy; 2022  -  Designed by GelaAnn----
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>  
+</body>
+</html>

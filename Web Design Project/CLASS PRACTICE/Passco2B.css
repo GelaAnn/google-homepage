@@ -1,0 +1,58 @@
+body{ width: 600px;
+    border: 1px solid red;
+    margin: 0 20% 0 20% ;
+}
+.header{
+    position: relative;
+    background-color: #770000;
+    background-image:url("app.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+.header-text{
+    position: absolute;
+    right:0;
+    bottom: 0;
+
+}
+.aside-left{
+    position: relative;
+    background: #dcd9c0;
+    height: 300px;
+    width:80px;
+    float: left;
+   
+}
+.links{
+    position:relative;
+    font-size: 15px  ;
+    top: 0;
+    left: 0;
+    margin: 5px;
+   
+}
+.aside-left li{
+    list-style: none;
+}
+
+.aside-left ul {
+    padding: 0;
+}
+.aside-right{
+    background:#009906;
+    height:300px;
+    width:120px;
+    float:right;
+}
+.main{background: #ffed53;
+    height:300px;
+    width:400px;
+}
+.content{
+    margin: 5px;
+}
+footer{
+    background:#221122;
+    height:30px;
+}

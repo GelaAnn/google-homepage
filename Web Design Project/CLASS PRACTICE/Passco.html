@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head><title>Gyarteng Angela Konadu</title></head>
+<style>
+    body{
+        font-family: courier;
+        font-weight: 600;
+    }
+    h1{
+    font-family:'Times New Roman';
+    font-size: 50px;
+    }
+    h3{
+        font-family: 'Times New Roman';
+        font-size: 20px;
+    }
+</style>
+<body>
+
+    <h1>The JavaScript Pizza Parlor </h1>
+    <form >
+        <table>
+            <h3>Step 1: Enter your name, address, and phone number:</h3>
+                <td><label for="Name">Name:</label> </td>
+                <td> <Input type ="text" name ="Name " size="30"></td>
+             <tr>
+                <td> <label for="Address">Address:</label></td>
+                <td><Input type ="text" name ="Address" size="30"></td>
+             </tr>
+             <tr>
+                <td><label for="City">City:</label></td>
+                <td>
+                    <Input type ="text" name="City" size="10">
+                    <Input type ="text" name="State" size="10" placeholder="State: ">
+                    <Input type ="text" name="Zip" size="10" placeholder="Zip:">
+                </td>
+             </tr>
+             <tr>
+                <td><label for="Telephone">Phone: </label></td>
+                <td><Input type ="Telephone" name ="Phone" size="30"></td>
+             </tr>
+             <tr>
+                <td><label for="Email">Email:</label></td>
+                <td><Input type ="Email" name ="Email" size="30"></td>
+            </tr>
+       </table>
+
+    <div class="pizzaSize">
+            <h3>Step 2: Select the size of pizza you want</h3>
+                <input type ="radio">Small</input>
+                <input type ="radio">Medium</input>
+                <input type ="radio">Large</input>
+                <input type ="radio">Jumbo</input>
+    </div>
+
+    <div class="toppings">
+            <h3>Step 3:Select the pizza toppings you want:</h3>
+            <input type="checkbox">Pepperoni</input>
+            <input type="checkbox">Canadian Bacon</input>
+            <input type="checkbox">Sausage</input><br>
+            <input type="checkbox">Mushrooms</input>
+            <input type="checkbox">Pineapple</input>
+            <input type="checkbox">Black Olives</input><br>
+            <input type="checkbox">Green Peppers</input>
+            <input type="checkbox">Extra Cheese</input>
+    </div>
+    <br>
+    <div class="submit">
+                <button type = "submit">Submit Order</button>
+                <button type="submit">Clear Entries</button>
+    </div>
+        </form>
+</body>
+</html>
